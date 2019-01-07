@@ -6,6 +6,20 @@ print(bikes[3].upper())
 print(bikes)
 bikes[0] = "generic"
 print(bikes)
+
+
+#pop()
+print("#pop")
+popped_bikes = bikes.pop()
+print(str(bikes) + "\nThe popped item is " + str(popped_bikes))
+
+
+
+#insert(0,)
+bikes.insert(1,'between generic and giant')
+print(bikes)
+
+#append()
 bikes.append('trek')
 print(bikes)
 
