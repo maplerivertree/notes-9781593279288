@@ -25,5 +25,4 @@ print(bikes)
 bikes.append('trek')
 print(bikes)
 
-#to run in CL; E:\python_crash> python lists.py
-
+#  to run in CL; E:\python_crash> python lists.py 
