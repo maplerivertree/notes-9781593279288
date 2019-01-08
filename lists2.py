@@ -1,4 +1,4 @@
-#del list[*]   remove()   remove(variable)   pop(*)
+#del list[*]   .remove()   .remove(variable)   .pop(*)
 
 inside_fridge=['gin','bread','pizza','vodka','lillet','bitter','rum','egg','cheesecake','milk','juice']
 
@@ -13,7 +13,7 @@ print('remove, remove by value')
 inside_fridge.remove('bitter')
 print(inside_fridge)
 
-#remove by value from a variable
+#remove by value from a variable 
 expired_items = 'bread'
 inside_fridge.remove(expired_items)
 print(inside_fridge)
