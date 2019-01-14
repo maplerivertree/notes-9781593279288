@@ -16,7 +16,6 @@ print(best_discipline)
 print(triathlon)
 print(best_discipline['joshua'].upper())
 
-
 print("loop by pairs, by keys, by values")
 #LOOP by PAIRS
 for k, v in best_discipline.items():
