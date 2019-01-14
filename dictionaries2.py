@@ -1,4 +1,4 @@
-# loop by .items(), .keys(), values(), set()
+# loop by .items(), .keys(), .values(), set(), sorted()
 print('\n')
 best_discipline = {
 	'emily': 'swim', 
