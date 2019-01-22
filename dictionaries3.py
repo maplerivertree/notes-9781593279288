@@ -8,3 +8,4 @@ for i in range(1,500,1):
 for robot in robots[0:3]:
 	print(robot)
 print('...')
+ 
