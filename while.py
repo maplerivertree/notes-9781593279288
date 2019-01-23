@@ -50,4 +50,4 @@ while Game_on and chances >0:
 		elif user_input < 0:
 			print("Instant Game Over.")
 			Game_on = False
-
+   
