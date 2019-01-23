@@ -1,5 +1,6 @@
 
-#flag continue break while
+#flag continue break   while True
+#while True will continue to run until it reaches a 'break'
 print("\n\nGame Rule: \n\tYou need to type in the result of 1x13, 2x13, 3x13, and etc.")
 print("\tYou have 3 chances.")
 print("\tIf you type in a negative number --- instant gameover.")
