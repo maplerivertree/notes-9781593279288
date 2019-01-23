@@ -16,6 +16,6 @@ while still_guests_with_no_order:
 	more = input("\nAny more orders? (yes/no)")
 	if more == 'no':
 		still_guests_with_no_order = False
-
+     
 for v, k in orders.items():
 	print(str(v)+".."+str(k))
