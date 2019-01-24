@@ -4,3 +4,4 @@ CONTENT
 3. if
 4. dictionaries
 5. while
+6. functions
