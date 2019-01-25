@@ -1,5 +1,8 @@
-#function5
-# pass an arbituary number of arguments
+# function5.py :pass an arbituary number of arguments
+
+""" Below function 'propagate' allows calling arbituary number of arguments"""
+
+
 
 # create an initial list of policemen (a list of dictionaries)
 db=[]
@@ -12,7 +15,7 @@ for i in db[:3]:
 print('\n')
 
 
-#--- a function that allows user to add 
+#--- FUNCTION 
 def propagate(current_db, fraction, health, num_of_addition, **other):
 	for i in range(1,num_of_addition+1,1):
 		robot = {'fraction': fraction, 'HP': health}
@@ -23,7 +26,7 @@ def propagate(current_db, fraction, health, num_of_addition, **other):
 	return(current_db)                                          
 #---
 
-# ask user to add more characters to the game
+# make user_interactive
 
 f = input('What type of characters you wish to add? (terrorist/milk-delivery-guy/anything else): ')
 n = input('How many to add? (1-10): ')
@@ -33,6 +36,7 @@ s1 = input('Do you want them to have a superpower? (y/n) :')
 if s1 == 'y' or s1 == 'Y' or s1.title() == 'Yes':
 	s = input("The superpower is :")
 	sp = True
+	""" USE of Flag """
 else:
 	sp = False
 w = input('What weapon do they carry? :')
