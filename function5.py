@@ -1,13 +1,12 @@
 #function5
 # pass an arbituary number of arguments
 
-
 # create an initial list of policemen (a list of dictionaries)
 db=[]
 for i in range(1,5,1):
 	robot = {'fraction' : 'police', 'HP' : 100}
 	db.append(robot)
-print('These are the characters already created for the game.')
+print('\nThese are the characters already living in this town.\n')
 for i in db[:3]:
 	print(str(i))
 print('\n')
@@ -31,7 +30,7 @@ n = input('How many to add? (1-10): ')
 h = input("What's the health for these characters>? (1-100): ")
 
 s1 = input('Do you want them to have a superpower? (y/n) :')
-if s1 == 'y' or s1 == 'Y':
+if s1 == 'y' or s1 == 'Y' or s1.title() == 'Yes':
 	s = input("The superpower is :")
 	sp = True
 else:
