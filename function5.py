@@ -7,6 +7,7 @@ db=[]
 for i in range(1,5,1):
 	robot = {'fraction' : 'police', 'HP' : 100}
 	db.append(robot)
+print('These are the characters already created for the game.')
 for i in db[:3]:
 	print(str(i))
 print('\n')
@@ -30,29 +31,16 @@ n = input('How many to add? (1-10): ')
 h = input("What's the health for these characters>? (1-100): ")
 s = input("What's a superpower for them? :")
 w = input('What weapon do they carry? :')
-
+print('\n')
 
 propagate(db, str(f), int(h), int(n),
 	superpower = str(s), 
 	weapon = str(w)
 	)
 
+print('\nThe following characters will be propagated for this game.')
 for i in db[:]:
 	print(str(i))
-
-
-
-
-
-
-	
-
-
-#user_info = {'Name':'Kate', 'Age':20}
-
-
-#def store_info(existing_info, Name, Age, **Other):
-
 
 
 
