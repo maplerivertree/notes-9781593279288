@@ -5,3 +5,4 @@ CONTENT
 4. dictionaries
 5. while
 6. functions
+7. classes
