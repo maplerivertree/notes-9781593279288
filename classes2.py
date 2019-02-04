@@ -30,7 +30,7 @@ class Car():
 >>> print(new_car.car_info()
 Aston Martin DB9 2012
 >>> new_car.update_odometer(
->>> print(new_car.odometer)
+>>> print(new_car.odometer) 
 55000
 >>> new_car.add_odometer(1)
 >>> print(new_car.odometer)
