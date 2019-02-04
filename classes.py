@@ -18,7 +18,7 @@ class occupation():
 		self.name = new_job
 		print(str(self.name))
 
-
+ 
 my_job = occupation('PM', 10, '150K')
 my_job_name = my_job.name
 
