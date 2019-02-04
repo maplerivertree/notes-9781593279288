@@ -1,4 +1,4 @@
-# input list preservation for function processing
+#input list preservation for function processing
 
 user_SSN = [9923278945,6623526436,286634234,7776463453,2162342365]
 encrypted_SSN = []
@@ -23,5 +23,5 @@ print(str(user_SSN))
 print(str(encryption(user_SSN)))
 print(str(user_SSN))
 
-
+ 
 
