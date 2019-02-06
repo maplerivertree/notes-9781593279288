@@ -11,7 +11,7 @@ def encryption(input_list):
 	output_list= []
 	while input_list:
 		output_list.append(input_list.pop()/33)
-	return output_list
+	return output_list 
 
 
 
