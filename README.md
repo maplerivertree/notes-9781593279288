@@ -7,3 +7,4 @@ CONTENT
 6. functions
 7. classes
 8. file
+9. Exception
